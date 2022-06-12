@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'star jedi';
+    font-style: 'normal';
+    font-weight: normal;
+    src: url('/src/font/DISTGRG_.ttf');
+}
+
+
+#main {
+    background-color: black;
+    height: 100vh;
+    color: #FFE81F;
+    font-family: 'star jedi';
+}
+
+
+#navbar {
+    position: relative;
+    
+    font-size: x-large;
+    width: 100%;
+}
+
+
+.description h3 {
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+
+
+#films {
+    position: relative;
+    top: 60px;
+}
+
+#films .original, .prequel {
+    margin-top: 30px;
+    
+}
+
+#characters {
+    display: flex;
+}
